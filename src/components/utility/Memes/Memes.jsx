@@ -25,7 +25,8 @@ const Memes = () => {
      const form = useForm({
         resolver: zodResolver(formSchema),
         defaultValues: {
-          username: "",
+          title: "",
+          description: "",
         },
       });
     const [allMemes, setAllMemes] = useState([]);

@@ -22,7 +22,7 @@ export const countrySlice = createSlice({
         .addCase(fetchCountries.fulfilled, (state, action) => {
         state.status = 'succeeded';
         const countryData = action.payload;
-        state.country = [countryData[0], ...state.country];
+        // state.country = [countryData[0], ...state.country];
             state.country = countryData[0]
             // console.log("action.payload",action.payload )
 

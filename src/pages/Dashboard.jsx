@@ -12,6 +12,7 @@ import {
   import CharacterSlider from '@/components/utility/CharacterSlider/ChaeacterSlider'
   import Countries from '@/components/utility/Countries/Countries'
   import Memes from '@/components/utility/Memes/Memes'
+import Profile from './Profile'
 
 function Dashboard() {
   return (
@@ -29,7 +30,7 @@ function Dashboard() {
             <CardDescription>Card Description</CardDescription>
         </CardHeader>
         <CardContent>
-            <p>Card Content</p>
+            <Profile />
         </CardContent>
         <CardFooter>
             <p>Card Footer</p>
